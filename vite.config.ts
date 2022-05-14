@@ -17,4 +17,7 @@ export default defineConfig({
     minify,
     outDir: 'dist',
   },
+  server: {
+    port: 10586,
+  }
 });

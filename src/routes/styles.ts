@@ -3,21 +3,24 @@ import styled from 'styled-components';
 export const LayoutWrapper = styled.div`
   width: 100%;
   min-height: 100vh;
+  background-color: #18171c;
 `;
 
 export const MainWrapper = styled.div`
   max-width: 1440px;
-  padding: 20px 0 160px;
-  margin: 60px auto;
+  padding: 60px 0 160px;
+  margin: 0 auto;
   box-sizing: border-box;
-  background-color: #fff;
 `;
 
 export const Header = styled.header`
   width: 100%;
   height: 60px;
-  background-color: #fff;
   box-shadow: 0 6px 16px -8px #00000014, 0 9px 8px #0000000d, 0 12px 48px 16px #00000008;;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #5639ac;
 `;
 
 export const Nav = styled.nav`
@@ -41,16 +44,33 @@ export const NavItem = styled.li`
     padding: 0 20px;
     line-height: 60px;
     white-space: nowrap;
+    color: #ffffff;
   }
 `;
 
 export const FooterWrapper = styled.footer`
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 160px;
-  background-color: #e9e9e9;
+  height: 64px;
+  background-color: #24222a;
+  
+  .footer-team {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  
+  .footer-power {
+    margin-top: 10px;
+    font-size: 10px;
+    color: #948fa3;
+    
+    a {
+      color: #948fa3;
+    }
+  }
 `;

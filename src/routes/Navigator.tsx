@@ -7,10 +7,13 @@ export const Navigator = () => {
       <Nav>
         <NavList>
           <NavItem>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/home">Crz 官网</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink to="/about">About</NavLink>
+            <NavLink to="/current">本期赛事</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/history">往期赛事</NavLink>
           </NavItem>
         </NavList>
       </Nav>
