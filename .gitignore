@@ -1,5 +1,16 @@
-
+.husky
 node_modules
+public
+script
+src
+.eslintrc.js
+index.html
+package.json
+pnpm-lock.yaml
+tsconfig.json
+vite.config.ts
+
+
 .DS_Store
 dist
 dist-ssr
