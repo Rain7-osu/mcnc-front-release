@@ -1,6 +1,6 @@
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import { Home } from '../pages/Home';
-import { About } from '../pages/About';
+import { Register } from '../pages/Register';
 import { Layout } from './Layout';
 
 export const Routes = () => {
@@ -9,7 +9,7 @@ export const Routes = () => {
       <Layout>
         <Switch>
           <Route path="/home" component={Home} />
-          <Route path="/about" component={About} />
+          <Route path="/register" component={Register} />
           <Redirect to="/home" />
         </Switch>
       </Layout>

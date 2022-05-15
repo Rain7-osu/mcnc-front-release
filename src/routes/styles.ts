@@ -68,9 +68,10 @@ export const FooterWrapper = styled.footer`
     margin-top: 10px;
     font-size: 10px;
     color: #948fa3;
-    
+
     a {
       color: #948fa3;
+      font-weight: bold;
     }
   }
 `;

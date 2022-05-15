@@ -6,6 +6,7 @@ import banner2 from '../../assets/4k2022.png';
 import banner3 from '../../assets/2019.jpg';
 import banner4 from '../../assets/2020.jpg';
 import banner5 from '../../assets/2021.png';
+import { BANNER_INTERVAL } from '../../common/constants';
 import { BannerWrapper } from './styles';
 
 const bannerList = [
@@ -21,7 +22,7 @@ export const Banner = () => {
 
   useRafInterval(() => {
     setIndex((index + 1) % bannerList.length);
-  }, 5000);
+  }, BANNER_INTERVAL);
 
   return (
     <BannerWrapper>

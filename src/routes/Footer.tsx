@@ -8,11 +8,11 @@ export const Footer = () => {
       </div>
       <div className="footer-power">
         powered by&nbsp;
-        <a>Rain7</a>&nbsp;
-        <a>(osu id: My Angel Yukee7)</a>
+        <a href="https://space.bilibili.com/29146366" target="_blank" rel="noreferrer">Rain7</a>&nbsp;
+        <a href="https://osu.ppy.sh/users/9787146" target="_blank" rel="noreferrer">(osu id: My Angel Yukee7)</a>
         ,&nbsp;
-        <a>kuit</a>&nbsp;
-        <a>(osu id: Kuiiiteee)</a>&nbsp;
+        <a href="https://space.bilibili.com/11689809" target="_blank" rel="noreferrer">Kuit</a>&nbsp;
+        <a href="https://osu.ppy.sh/users/7304075" target="_blank" rel="noreferrer">(osu id: Kuiiiiteeee)</a>&nbsp;
       </div>
     </FooterWrapper>
   );

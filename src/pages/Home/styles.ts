@@ -43,6 +43,7 @@ export const HomePage = styled.div`
     line-height: 64px;
     text-align: center;
     font-size: 28px;
+    font-family: var(--osu-default-font);
     
     &:hover {
       color: #ffffff;
