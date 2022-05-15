@@ -12,7 +12,6 @@ vite.config.ts
 
 
 .DS_Store
-dist
 dist-ssr
 *.local
 
